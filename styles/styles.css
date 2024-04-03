@@ -1,0 +1,67 @@
+body{
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    line-height: 23px;
+    overflow: hidden;
+    color:hsl(0, 0%, 7%);
+    background-color:hsl(47, 88%, 63%);
+}
+.container{
+    margin:0 auto;
+    width:50%;
+    max-width: 340px;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    border:1px solid black;
+    padding:20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 #000;
+    background-color:hsl(0, 0%, 100%);
+}
+img#article{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.tag{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding:7px;
+    font-weight:700;
+}
+.large-font{
+    font-weight: 900;
+}
+.large-font:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.gray-text{
+    color: hsl(0, 0%, 50%);
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.avatar img{
+    margin-right: 10px;
+}
+.avatar p{
+    font-weight:700;
+}
+
+.attribution {
+    text-align: center;
+    line-height: 12px;
+}
+.attribution a{
+    color:#fff;
+}
+.attribution a:hover{
+    color:rgb(75, 71, 72);
+    cursor: pointer;
+}
